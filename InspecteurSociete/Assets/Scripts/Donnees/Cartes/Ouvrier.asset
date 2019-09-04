@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Ouvrier
   m_EditorClassIdentifier: 
   victime: "Beno\xEEt, ouvrier de chantier"
-  suspectPrincipal: "Didier, ouvrier sur le m\xEAme chantier"
+  crimeCommis: 
+  lieu: 
+  ListeSuspects: []
   descriptionCrime: "Notre victime a \xE9t\xE9 retrouv\xE9e ensevelie sous 300 kilos
     de ciment."
   sprite: {fileID: 0}

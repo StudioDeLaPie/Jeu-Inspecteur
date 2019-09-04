@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be92ac984b4b368459c2de1186c03790, type: 3}
   m_Name: Kenji Jicrac, Chanteur
   m_EditorClassIdentifier: 
-  victime: 
-  crimeCommis: 
-  lieu: 
-  ListeSuspects: []
-  descriptionCrime: 
-  sprite: {fileID: 0}
+  victime: 'Kenji Jicrac, Chanteur '
+  crimeCommis: Agression
+  lieu: "Dans sa loge priv\xE9e "
+  ListeSuspects:
+  - Groupies
+  - Maison de disque
+  - "\xC9quipe technique"
+  descriptionCrime: "Apr\xE8s son concert, Kenji est retourn\xE9 dans sa loge pour
+    se d\xE9maquiller et se reposer. 2 heures plus tard, il est retrouv\xE9 nu et
+    inconscient dans un coin de la pi\xE8ce.\r\n"
+  sprite: {fileID: 21300000, guid: ebcf6ee12d51e8c4cb099218637bfc32, type: 3}

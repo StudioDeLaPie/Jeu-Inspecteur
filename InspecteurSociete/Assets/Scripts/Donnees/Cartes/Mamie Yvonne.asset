@@ -10,9 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be92ac984b4b368459c2de1186c03790, type: 3}
-  m_Name: Carte Suspect
+  m_Name: Mamie Yvonne
   m_EditorClassIdentifier: 
-  victime: 
-  suspectPrincipal: 
-  descriptionCrime: 
-  sprite: {fileID: 0}
+  victime: Mamie Yvonne
+  crimeCommis: Meurtre
+  lieu: Maison de retraite
+  ListeSuspects:
+  - Famille
+  - "R\xE9sidents de la maison de retraite "
+  - Personnel soignant
+  descriptionCrime: "Retrouv\xE9e morte ce matin dans son lit, tu\xE9e d'un coup de
+    couteau \xE0 la poitrine."
+  sprite: {fileID: 21300000, guid: 139c9598712159643b8c91fc62d2309b, type: 3}

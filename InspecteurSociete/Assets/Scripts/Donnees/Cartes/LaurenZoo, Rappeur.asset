@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be92ac984b4b368459c2de1186c03790, type: 3}
   m_Name: LaurenZoo, Rappeur
   m_EditorClassIdentifier: 
-  victime: 
-  crimeCommis: 
-  lieu: 
-  ListeSuspects: []
-  descriptionCrime: 
-  sprite: {fileID: 0}
+  victime: LaurenZoo, Rappeur
+  crimeCommis: "Port\xE9 disparu"
+  lieu: '-'
+  ListeSuspects:
+  - Haters
+  - 'Connaissances de la street '
+  - Dealers
+  descriptionCrime: "Il est port\xE9 disparu depuis 3 jours. Son dernier single a
+    pas mal fait parler de lui puisque les textes pr\xF4nent l\u2019interdiction de
+    consommation du cannabis, contrairement \xE0 son habitude.\r\n"
+  sprite: {fileID: 21300000, guid: ca595e575194b5a4c9a0414d39b05a47, type: 3}

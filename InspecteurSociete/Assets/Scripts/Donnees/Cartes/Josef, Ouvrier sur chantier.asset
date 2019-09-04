@@ -10,9 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be92ac984b4b368459c2de1186c03790, type: 3}
-  m_Name: Josef ouvrier sur chantier
+  m_Name: Josef, Ouvrier sur chantier
   m_EditorClassIdentifier: 
-  victime: 
-  suspectPrincipal: 
-  descriptionCrime: 
-  sprite: {fileID: 0}
+  victime: Josef, ouvrier sur chantier
+  crimeCommis: Meurtre
+  lieu: 'Chantier '
+  ListeSuspects:
+  - "Coll\xE8gues ouvriers"
+  - Responsables de projet
+  - "Agents d\u2019assurance"
+  descriptionCrime: "Retrouv\xE9 mort cet apr\xE8s-midi sur son lieu de travail, plus
+    pr\xE9cis\xE9ment sous 300 kg de b\xE9ton.\r\n"
+  sprite: {fileID: 21300000, guid: 86b4f6fed0f944d46ac03fc509edb97c, type: 3}

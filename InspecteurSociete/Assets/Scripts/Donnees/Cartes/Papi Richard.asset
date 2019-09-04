@@ -10,9 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be92ac984b4b368459c2de1186c03790, type: 3}
-  m_Name: Carte Suspect
+  m_Name: Papi Richard
   m_EditorClassIdentifier: 
-  victime: 
-  suspectPrincipal: 
-  descriptionCrime: 
-  sprite: {fileID: 0}
+  victime: Papi Richard
+  crimeCommis: Tentative de meurtre
+  lieu: 'Maison de retraite '
+  ListeSuspects:
+  - Famille
+  - "R\xE9sidents de la maison de retraite"
+  - Personnel soignant
+  descriptionCrime: "Papi s\u2019est cass\xE9 le col du f\xE9mur apr\xE8s \xEAtre
+    tomb\xE9 dans l\u2019escalier. Il affirme que quelqu\u2019un l\u2019a pouss\xE9,
+    mais ignore qui.\r\n"
+  sprite: {fileID: 21300000, guid: c84e51c5d6779c44b9cb32ada2e9d8f0, type: 3}

@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Magicien
   m_EditorClassIdentifier: 
   victime: Ricardo, magicien
-  suspectPrincipal: Marcos, assistant
+  crimeCommis: 
+  lieu: 
+  ListeSuspects: []
   descriptionCrime: "Juste apr\xE8s avoir fait dispara\xEEtre son assistant de la
     sc\xE8ne, le clou du spectacle, Ricardo est retrouv\xE9 dans les coulisses, d\xE9coup\xE9
     en deux. Le coupable a vraisemblablement utilis\xE9 une scie."

@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: GrandMere
   m_EditorClassIdentifier: 
   victime: "Josianne, r\xE9sidente"
-  suspectPrincipal: "Ivonne, r\xE9sidente"
+  crimeCommis: 
+  lieu: 
+  ListeSuspects: []
   descriptionCrime: "Une r\xE9sidente de la maison de retraite \"Plut-Rez-Fr\xE8s\"
     a d\xE9clar\xE9 s'\xEAtre fait pousser dans l'escalier par une autre r\xE9sidente.\nQuel
     est votre alibi Ivonne ?"

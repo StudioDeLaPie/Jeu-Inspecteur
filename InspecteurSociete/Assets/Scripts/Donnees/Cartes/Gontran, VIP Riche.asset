@@ -10,11 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be92ac984b4b368459c2de1186c03790, type: 3}
-  m_Name: Carte Suspect
+  m_Name: Gontran, VIP Riche
   m_EditorClassIdentifier: 
-  victime: 
-  crimeCommis: 
-  lieu: 
-  ListeSuspects: []
-  descriptionCrime: 
-  sprite: {fileID: 0}
+  victime: Gontran, VIP Riche
+  crimeCommis: "Kidnapping avec demande de ran\xE7on"
+  lieu: Manoir de Gontran
+  ListeSuspects:
+  - Famille
+  - Domestiques
+  - 'Mafia locale '
+  descriptionCrime: "Gontran a disparu depuis trois jours. Les vid\xE9os de surveillance
+    de son manoir montre qu\u2019il s\u2019est fait kidnapper dans sa piscine. Sa
+    famille a re\xE7u une demande de ran\xE7on ce matin.\r"
+  sprite: {fileID: 21300000, guid: b7c71ac69c9c16c4aa890c5d6830d980, type: 3}

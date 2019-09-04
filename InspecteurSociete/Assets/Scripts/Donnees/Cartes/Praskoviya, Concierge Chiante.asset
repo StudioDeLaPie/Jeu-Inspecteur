@@ -12,7 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be92ac984b4b368459c2de1186c03790, type: 3}
   m_Name: Praskoviya, Concierge Chiante
   m_EditorClassIdentifier: 
-  victime: 
-  suspectPrincipal: 
-  descriptionCrime: 
-  sprite: {fileID: 0}
+  victime: Praskoviya, Concierge Chiante
+  crimeCommis: meurtre
+  lieu: Appartement de Praskoviya
+  ListeSuspects:
+  - "R\xE9sidents"
+  - Syndic
+  - "Ouvriers qui refont la fa\xE7ade"
+  descriptionCrime: "Elle a \xE9t\xE9 poignard\xE9e chez elle. Le corps a \xE9t\xE9
+    signal\xE9 en d\xE9but d\u2019apr\xE8s midi par le facteur qui a senti une forte
+    odeur de putr\xE9faction. \r\n"
+  sprite: {fileID: 21300000, guid: 4446d65b7a6af324f982e09acd8e3e45, type: 3}

@@ -10,11 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be92ac984b4b368459c2de1186c03790, type: 3}
-  m_Name: Isadora, artiste peintre
+  m_Name: Isadora, Artiste peintre
   m_EditorClassIdentifier: 
-  victime: 
-  crimeCommis: 
-  lieu: 
-  ListeSuspects: []
-  descriptionCrime: 
-  sprite: {fileID: 0}
+  victime: 'Isadora, artiste peintre '
+  crimeCommis: 'Vol de tableau '
+  lieu: 'Appartement de Isadora '
+  ListeSuspects:
+  - "G\xE9rants de la salle d\u2019expo "
+  - Famille
+  - Clients
+  - Fournisseurs
+  descriptionCrime: "Isadora s\u2019est fait voler sa derni\xE8re \u0153uvre sur toile
+    hier soir dans son appartement. En rentrant de soir\xE9e, sa porte avait \xE9t\xE9
+    forc\xE9e et le tableau vol\xE9. \xC7a devait \xEAtre la pi\xE8ce ma\xEEtresse
+    de son exposition pr\xE9vue dans trois jours.\r\n"
+  sprite: {fileID: 21300000, guid: 78f27743959c32944b8f2c93c4a25482, type: 3}

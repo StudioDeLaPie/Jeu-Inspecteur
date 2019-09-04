@@ -10,9 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be92ac984b4b368459c2de1186c03790, type: 3}
-  m_Name: mathilde Parachutiste
+  m_Name: Mathilde, Parachutiste
   m_EditorClassIdentifier: 
-  victime: 
-  suspectPrincipal: 
-  descriptionCrime: 
-  sprite: {fileID: 0}
+  victime: 'Mathilde, parachutiste '
+  crimeCommis: Meurtre
+  lieu: Avion, champs
+  ListeSuspects:
+  - Pilote
+  - Autres parachutistes
+  - "Vendeur de mat\xE9riel"
+  - Famille
+  descriptionCrime: "La cr\xEApe a \xE9t\xE9 retrouv\xE9e dans un champ suite au saut
+    organis\xE9 par sa famille pour son anniversaire."
+  sprite: {fileID: 21300000, guid: 0701aa5d3baa4f04e9c5b873f97b9d8e, type: 3}
