@@ -17,7 +17,13 @@ public class AffichageCarteSuspect : MonoBehaviour
     public void AfficherCarte(CarteSuspect carte)
     {
         victime.text = carte.victime;
-        suspect.text = carte.suspectPrincipal;
+
+        suspect.text = string.Empty;
+        foreach (var nomSuspect in carte.ListeSuspects)
+        {
+            suspect.text += nomSuspect + "\n";
+        }
+
         description.text = carte.descriptionCrime;
         image.sprite = carte.sprite;
         popUpVerif.SetActive(false);

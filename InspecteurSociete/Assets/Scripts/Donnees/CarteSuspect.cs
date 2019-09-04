@@ -6,7 +6,9 @@ using UnityEngine;
 public class CarteSuspect : ScriptableObject
 {
     public string victime;
-    public string suspectPrincipal;
+    public string crimeCommis;
+    public string lieu;
+    public List<string> ListeSuspects;
     [TextArea] public string descriptionCrime;
     public Sprite sprite;
 }
