@@ -7,6 +7,11 @@ public class ShowContext : MonoBehaviour
 {
     public GameObject contextMesh;
 
+    private void Start()
+    {
+        HideContextView();
+    }
+
     public void ShowContextView()
     {
         contextMesh.SetActive(true);

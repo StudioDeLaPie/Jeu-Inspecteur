@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class SaisieNomsJoueurs : MonoBehaviour
 {
@@ -11,7 +10,7 @@ public class SaisieNomsJoueurs : MonoBehaviour
     public GameObject prefabInputField;
 
     private int nbJoueurs;
-    private List<TMP_InputField> inputFields = new List<TMP_InputField>();
+    private List<InputField> inputFields = new List<InputField>();
 
 
     // Start is called before the first frame update
@@ -20,7 +19,7 @@ public class SaisieNomsJoueurs : MonoBehaviour
         nbJoueurs = manager.nbJoueurs;
         for (int i = 0; i < nbJoueurs; i++)
         {
-            inputFields.Add(Instantiate(prefabInputField, grid).GetComponent<TMP_InputField>());
+            inputFields.Add(Instantiate(prefabInputField, grid).GetComponent<InputField>());
             inputFields[i].text = "Joueur " + (i + 1);
         }
     }

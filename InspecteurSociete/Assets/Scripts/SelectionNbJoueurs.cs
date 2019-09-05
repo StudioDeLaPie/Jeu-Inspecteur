@@ -1,12 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using UnityEngine.UI;
 
 public class SelectionNbJoueurs : MonoBehaviour
 {
-    public TextMeshProUGUI nbJoueursText;
+    public Text nbJoueursText;
     public Slider slider;
     public GameManager manager;
 

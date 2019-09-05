@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class SelectionVainqueurManche : MonoBehaviour
 {
@@ -9,7 +9,7 @@ public class SelectionVainqueurManche : MonoBehaviour
     public GameObject prefabBtnJoueur;
     public Transform grid;
     public GameObject popUpVerif;
-    public TextMeshProUGUI textNomJoueurPopUp;
+    public Text textNomJoueurPopUp;
 
     private List<Joueur> suspects;
     private Joueur vainqueur;

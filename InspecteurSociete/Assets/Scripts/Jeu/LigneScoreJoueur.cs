@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class LigneScoreJoueur : MonoBehaviour
 {
-    public TextMeshProUGUI nomJoueur;
-    public TextMeshProUGUI scoreJoueur;
+    public Text nomJoueur;
+    public Text scoreJoueur;
 
     public void AfficherScore(Joueur j)
     {
