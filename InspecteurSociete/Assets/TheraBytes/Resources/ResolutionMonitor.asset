@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9594bfd1a6e5c144a7b3cd550101403, type: 3}
   m_Name: ResolutionMonitor
   m_EditorClassIdentifier: 
-  optimizedResolutionFallback: {x: 1440, y: 2560}
+  optimizedResolutionFallback: {x: 1080, y: 1920}
   optimizedDpiFallback: 96
   fallbackName: Portrait
   dpiManager:
@@ -37,6 +37,6 @@ MonoBehaviour:
       expectedDeviceInfo: 0
       isActive: 0
     optimizedScreenInfo:
-      resolution: {x: 1440, y: 2560}
+      resolution: {x: 1080, y: 1920}
       dpi: 96
     fallbacks: []
