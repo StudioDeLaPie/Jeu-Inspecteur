@@ -120,6 +120,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &21652222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7874959930616381478, guid: 1ce462853834f7749874552fa5ba03ad,
+        type: 3}
+      propertyPath: m_Name
+      value: SoundManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874959930616381472, guid: 1ce462853834f7749874552fa5ba03ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -280.72437
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874959930616381472, guid: 1ce462853834f7749874552fa5ba03ad,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 820.3703
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874959930616381472, guid: 1ce462853834f7749874552fa5ba03ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -254.93497
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874959930616381472, guid: 1ce462853834f7749874552fa5ba03ad,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874959930616381472, guid: 1ce462853834f7749874552fa5ba03ad,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874959930616381472, guid: 1ce462853834f7749874552fa5ba03ad,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874959930616381472, guid: 1ce462853834f7749874552fa5ba03ad,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874959930616381472, guid: 1ce462853834f7749874552fa5ba03ad,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874959930616381472, guid: 1ce462853834f7749874552fa5ba03ad,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874959930616381472, guid: 1ce462853834f7749874552fa5ba03ad,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874959930616381472, guid: 1ce462853834f7749874552fa5ba03ad,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ce462853834f7749874552fa5ba03ad, type: 3}
 --- !u!1 &75491895
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,7 +814,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 0
+=======
+    m_FontSize: 46
+>>>>>>> 244f307ca111f17d2a2c8dd5e3c3df00cf240e9b
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -1720,7 +1793,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 0
+=======
+    m_FontSize: 47
+>>>>>>> 244f307ca111f17d2a2c8dd5e3c3df00cf240e9b
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2365,7 +2442,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 0
+=======
+    m_FontSize: 45
+>>>>>>> 244f307ca111f17d2a2c8dd5e3c3df00cf240e9b
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3595,7 +3676,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 0
+=======
+    m_FontSize: 47
+>>>>>>> 244f307ca111f17d2a2c8dd5e3c3df00cf240e9b
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -4123,7 +4208,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 0
+=======
+    m_FontSize: 47
+>>>>>>> 244f307ca111f17d2a2c8dd5e3c3df00cf240e9b
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -4215,7 +4304,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 0
+=======
+    m_FontSize: 40
+>>>>>>> 244f307ca111f17d2a2c8dd5e3c3df00cf240e9b
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -4753,7 +4846,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 0
+=======
+    m_FontSize: 46
+>>>>>>> 244f307ca111f17d2a2c8dd5e3c3df00cf240e9b
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -5220,7 +5317,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 0
+=======
+    m_FontSize: 47
+>>>>>>> 244f307ca111f17d2a2c8dd5e3c3df00cf240e9b
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -5473,7 +5574,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 0
+=======
+    m_FontSize: 47
+>>>>>>> 244f307ca111f17d2a2c8dd5e3c3df00cf240e9b
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -6962,7 +7067,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 0
+=======
+    m_FontSize: 47
+>>>>>>> 244f307ca111f17d2a2c8dd5e3c3df00cf240e9b
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
