@@ -21,6 +21,6 @@ MonoBehaviour:
   - "Coll\xE8gues"
   - Administration
   descriptionCrime: "Il s\u2019est fait voler sa voiture hier dans la journ\xE9e.
-    Il s\u2019en est rendu compte apr\xE8s ses cours, vers 18 h et a appel\xE9 la
-    police hier.\r\n"
+    Il s\u2019en est rendu compte apr\xE8s ses cours, vers 18 h. Il a retrouv\xE9
+    [sujet] \xE0 la place de sa voiture."
   sprite: {fileID: 21300000, guid: 0a7ce7c9070a08942b65f5598f446221, type: 3}

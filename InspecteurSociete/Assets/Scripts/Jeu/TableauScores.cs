@@ -10,7 +10,7 @@ public class TableauScores : MonoBehaviour
 
     public void RefreshTableau(List<Joueur> joueurs)
     {
-        Utilities.ClearTransformChildren(grid);
+        Utilities.Utilities.ClearTransformChildren(grid);
 
         foreach (Joueur j in joueurs)
         {

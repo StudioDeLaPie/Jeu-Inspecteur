@@ -13,6 +13,8 @@ public class AffichageCarteSuspect : MonoBehaviour
     public Text contexte;
     public Image image;
 
+    public Dictionnaire dico;
+
     public GameObject popUpVerif;
 
     public void AfficherCarte(CarteSuspect carte)
@@ -29,7 +31,7 @@ public class AffichageCarteSuspect : MonoBehaviour
 
         lieu.text = carte.lieu;
 
-        contexte.text = carte.descriptionCrime;
+        contexte.text = carte.GetDescriptionCrime(dico);
         image.sprite = carte.sprite;
         popUpVerif.SetActive(false);
     }
@@ -48,5 +50,4 @@ public class AffichageCarteSuspect : MonoBehaviour
     {
         mainScript.AfficherSelectionVainqueur();
     }
-
 }

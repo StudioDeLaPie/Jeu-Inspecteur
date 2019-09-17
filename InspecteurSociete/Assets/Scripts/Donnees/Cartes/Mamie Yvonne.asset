@@ -19,6 +19,6 @@ MonoBehaviour:
   - Famille
   - "R\xE9sidents de la maison de retraite "
   - Personnel soignant
-  descriptionCrime: "Retrouv\xE9e morte ce matin dans son lit, tu\xE9e d'un coup de
-    couteau \xE0 la poitrine."
+  descriptionCrime: "Retrouv\xE9e morte ce matin dans son lit et recouvert avec [sujet],
+    tu\xE9e d'un coup de couteau \xE0 la poitrine."
   sprite: {fileID: 21300000, guid: 139c9598712159643b8c91fc62d2309b, type: 3}

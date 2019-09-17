@@ -17,6 +17,6 @@ MonoBehaviour:
   lieu: 
   ListeSuspects: []
   descriptionCrime: "Une r\xE9sidente de la maison de retraite \"Plut-Rez-Fr\xE8s\"
-    a d\xE9clar\xE9 s'\xEAtre fait pousser dans l'escalier par une autre r\xE9sidente.\nQuel
-    est votre alibi Ivonne ?"
+    a d\xE9clar\xE9 s'\xEAtre fait pousser dans l'escalier par une autre r\xE9sidente
+    qui transportait [sujet].\nQuel est votre alibi Ivonne ?"
   sprite: {fileID: 21300000, guid: 3f4495c8767da8b4c8623aeb53f4c7d7, type: 3}

@@ -27,7 +27,7 @@ public class SelectionVainqueurManche : MonoBehaviour
     {
         popUpVerif.SetActive(false);
 
-        Utilities.ClearTransformChildren(grid);
+        Utilities.Utilities.ClearTransformChildren(grid);
 
         foreach (Joueur j in suspects)
         {

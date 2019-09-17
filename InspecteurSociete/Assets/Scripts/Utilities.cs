@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Utilities : MonoBehaviour
+namespace Utilities
 {
-    public static void ClearTransformChildren(Transform t)
+    public class Utilities : MonoBehaviour
     {
-        for (int i = t.childCount - 1; i >= 0; i--)
+        public static void ClearTransformChildren(Transform t)
         {
-            Destroy(t.GetChild(i).gameObject);
+            for (int i = t.childCount - 1; i >= 0; i--)
+            {
+                Destroy(t.GetChild(i).gameObject);
+            }
         }
     }
 }

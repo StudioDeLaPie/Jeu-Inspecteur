@@ -20,6 +20,6 @@ MonoBehaviour:
   - Maison de disque
   - "\xC9quipe technique"
   descriptionCrime: "Apr\xE8s son concert, Kenji est retourn\xE9 dans sa loge pour
-    se d\xE9maquiller et se reposer. 2 heures plus tard, il est retrouv\xE9 nu et
-    inconscient dans un coin de la pi\xE8ce.\r\n"
+    se d\xE9maquiller et se reposer. 2 heures plus tard, il est retrouv\xE9 inconscient
+    et nu avec [sujet] sur la t\xEAte dans un coin de la pi\xE8ce.\r\n\n[mot]"
   sprite: {fileID: 21300000, guid: ebcf6ee12d51e8c4cb099218637bfc32, type: 3}

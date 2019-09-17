@@ -20,5 +20,5 @@ MonoBehaviour:
   - "Derniers criminels arr\xEAt\xE9s "
   - "Coll\xE8gues"
   descriptionCrime: "Agress\xE9e lors de sa patrouille quotidienne. Elle a \xE9t\xE9
-    retrouv\xE9e en fin de matin\xE9 et imm\xE9diatement transport\xE9e \xE0 l'h\xF4pital.\r\n"
+    retrouv\xE9e en fin de matin\xE9e gisant au sol avec [sujet] dans la bouche. \r\n"
   sprite: {fileID: 21300000, guid: fd3f6ec334bd98646b267dafd6da71d5, type: 3}

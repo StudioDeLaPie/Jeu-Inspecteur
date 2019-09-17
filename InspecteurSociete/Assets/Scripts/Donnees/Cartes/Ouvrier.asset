@@ -17,5 +17,5 @@ MonoBehaviour:
   lieu: 
   ListeSuspects: []
   descriptionCrime: "Notre victime a \xE9t\xE9 retrouv\xE9e ensevelie sous 300 kilos
-    de ciment."
+    de ciment.[mot]"
   sprite: {fileID: 0}

@@ -19,7 +19,7 @@ MonoBehaviour:
   - Famille
   - "R\xE9sidents de la maison de retraite"
   - Personnel soignant
-  descriptionCrime: "Papi s\u2019est cass\xE9 le col du f\xE9mur apr\xE8s \xEAtre
-    tomb\xE9 dans l\u2019escalier. Il affirme que quelqu\u2019un l\u2019a pouss\xE9,
-    mais ignore qui.\r\n"
+  descriptionCrime: "En essayant de ramasser [sujet], papi est tomb\xE9 dans les escaliers.
+    Mais il affime que quelqu'un l'a pouss\xE9. il se retrouvre avec le col du f\xE9mur
+    cass\xE9."
   sprite: {fileID: 21300000, guid: c84e51c5d6779c44b9cb32ada2e9d8f0, type: 3}

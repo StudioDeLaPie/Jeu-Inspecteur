@@ -1,0 +1,31 @@
+{
+  "sujets": [
+    "des saucisses",
+    "une guitare",
+    "une machine à écrire qui écrit toute seule",
+    "une enveloppe en ciment",
+    "une cerise",
+    "un lapin",
+    "des nouilles",
+    "un doudou licorne"
+  ],
+  "verbesAvecComplement": [
+    "manger",
+    "boire",
+    "taper",
+    "sauter",
+    "téléphoner à",
+    "jeter",
+    "nettoyer",
+    "regarder",
+    "fixer",
+    "réciter un poème sur"
+  ],
+  "verbes": [
+    "courir en rond",
+    "sauter sur place",
+    "hurler à la mort",
+    "chanter",
+    "se cacher"
+  ]
+}
