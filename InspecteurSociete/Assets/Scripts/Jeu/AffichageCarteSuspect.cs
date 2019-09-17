@@ -17,7 +17,7 @@ public class AffichageCarteSuspect : MonoBehaviour
 
     public GameObject popUpVerif;
 
-    public void AfficherCarte(CarteSuspect carte)
+    public void AfficherCarte(CarteCrime carte)
     {
         victime.text = carte.victime;
 
@@ -32,7 +32,7 @@ public class AffichageCarteSuspect : MonoBehaviour
         lieu.text = carte.lieu;
 
         contexte.text = carte.GetDescriptionCrime(dico);
-        image.sprite = carte.sprite;
+        //■■■■■■■■■■■■■image.sprite = carte.sprite;
         popUpVerif.SetActive(false);
     }
 

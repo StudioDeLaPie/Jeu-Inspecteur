@@ -1,0 +1,22 @@
+[
+  {
+    "victime": "Richard",
+    "crimeCommis": "meurtre",
+    "lieu": "maison",
+    "ListeSuspects": [
+      "mama",
+      "tata"
+    ],
+    "descriptionCrime": "je suis une grosse conne"
+  },
+  {
+    "victime": "Richard",
+    "crimeCommis": "meurtre",
+    "lieu": "maison",
+    "ListeSuspects": [
+      "mama",
+      "tata"
+    ],
+    "descriptionCrime": "moi aussi"
+  }
+]

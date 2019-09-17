@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Carte Suspect")]
-public class CarteSuspect : ScriptableObject
+public class CarteCrime
 {
     public string victime;
     public string crimeCommis;
     public string lieu;
     public List<string> ListeSuspects;
-    [TextArea, SerializeField] private string descriptionCrime;
-    public Sprite sprite;
+    [TextArea, SerializeField] public string descriptionCrime;
+
+    public string DescriptionCrime { set => descriptionCrime = value; }
+
+    //public Sprite sprite;
 
     /// <summary>
     /// Renvoie la description en remplacant les mots Dynamiques

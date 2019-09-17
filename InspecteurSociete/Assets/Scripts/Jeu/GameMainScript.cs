@@ -9,15 +9,18 @@ public class GameMainScript : MonoBehaviour
     public AffichageInspecteur affichageInspecteur;
     public SelectionVainqueurManche selectionVainqueur;
     public TableauScores tableauScores;
-    public List<CarteSuspect> deck;
+    private List<CarteCrime> deck;
 
     private Joueur inspecteur;
-    private CarteSuspect carteActuelle;
+    private CarteCrime carteActuelle;
     private List<Joueur> joueursEnJeu;
     private List<MonoBehaviour> menus;
 
     private void OnEnable()
     {
+        if (deck == null)
+            deck = Deck.GetDeck();
+
         joueursEnJeu = new List<Joueur>(manager.joueurs);
         inspecteur = joueursEnJeu[joueursEnJeu.Count - 1]; //Sélectione le dernier joueur pour qu'à la sélection ça revienne au premier
         menus = new List<MonoBehaviour>() { affichageCarte, affichageInspecteur, selectionVainqueur, tableauScores };
@@ -87,7 +90,7 @@ public class GameMainScript : MonoBehaviour
         {
             n--;
             int k = rnd.Next(n + 1);
-            CarteSuspect carte = deck[k];
+            CarteCrime carte = deck[k];
             deck[k] = deck[n];
             deck[n] = carte;
         }
