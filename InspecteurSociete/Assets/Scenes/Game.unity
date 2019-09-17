@@ -714,6 +714,7 @@ MonoBehaviour:
   lieu: {fileID: 1774062032}
   contexte: {fileID: 230533268}
   image: {fileID: 1167812330}
+  dico: {fileID: 1416961171}
   popUpVerif: {fileID: 1456978019}
 --- !u!1 &133668208
 GameObject:
@@ -1646,7 +1647,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 15
+  m_Spacing: 3.75
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
@@ -4487,7 +4488,7 @@ MonoBehaviour:
     m_Top: 10
     m_Bottom: 10
   m_ChildAlignment: 0
-  m_Spacing: 10
+  m_Spacing: 1.8906248
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
@@ -7791,6 +7792,7 @@ GameObject:
   - component: {fileID: 1416961167}
   - component: {fileID: 1416961166}
   - component: {fileID: 1416961170}
+  - component: {fileID: 1416961171}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -7900,6 +7902,22 @@ MonoBehaviour:
   ecranJeu: {fileID: 1100630449}
   regles: {fileID: 578466502}
   nbJoueurs: 0
+--- !u!114 &1416961171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416961165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0b7b2dcffd57d409c2a7077136f28c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sujets: []
+  verbes: []
+  verbesAvecComplement: []
+  JSONStringDico: 
 --- !u!1 &1434924626
 GameObject:
   m_ObjectHideFlags: 0
@@ -8933,7 +8951,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 6.2
+  m_Spacing: 1.55
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
@@ -10543,7 +10561,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 92
+    m_FontSize: 61
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -13254,7 +13272,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 108
+    m_FontSize: 72
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -13438,7 +13456,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 108
+    m_FontSize: 72
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
