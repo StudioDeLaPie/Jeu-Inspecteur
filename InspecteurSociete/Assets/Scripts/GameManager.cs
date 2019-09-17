@@ -8,11 +8,13 @@ public class GameManager : MonoBehaviour
     public GameObject selectionNbJoueurs;
     public GameObject saisieNomsJoueurs;
     public GameObject ecranJeu;
+    public GameObject regles;
 
 
     [HideInInspector] public int nbJoueurs;
     [HideInInspector] public List<Joueur> joueurs;
     private List<GameObject> ecrans;
+    private GameObject displayedEcran;
 
     private void Start()
     {
@@ -20,6 +22,10 @@ public class GameManager : MonoBehaviour
         Show(menuPrincipal);
     }
 
+    public void ShowRegles()
+    {
+        regles.SetActive(true);
+    }
 
     public void StartGame()
     {
@@ -41,7 +47,9 @@ public class GameManager : MonoBehaviour
 
     private void Show(GameObject ecran)
     {
-        ecrans.ForEach(go => go.SetActive(false));
+        displayedEcran?.SetActive(false);
+        //ecrans.ForEach(go => go.SetActive(false));
+        displayedEcran = ecran;
         ecran.SetActive(true);
     }
 }
