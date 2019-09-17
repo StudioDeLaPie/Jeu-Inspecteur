@@ -32,7 +32,7 @@ public class AffichageCarteSuspect : MonoBehaviour
         lieu.text = carte.lieu;
 
         contexte.text = carte.GetDescriptionCrime(dico);
-        //■■■■■■■■■■■■■image.sprite = carte.sprite;
+        image.sprite = carte.GetSprite();
         popUpVerif.SetActive(false);
     }
 

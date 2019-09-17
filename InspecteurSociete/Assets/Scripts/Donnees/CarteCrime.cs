@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Carte Suspect")]
 public class CarteCrime
 {
     public string victime;
@@ -13,7 +12,7 @@ public class CarteCrime
 
     public string DescriptionCrime { set => descriptionCrime = value; }
 
-    //public Sprite sprite;
+    public string spriteName;
 
     /// <summary>
     /// Renvoie la description en remplacant les mots Dynamiques
@@ -25,5 +24,10 @@ public class CarteCrime
         result = result.Replace("[verbe]", dico.VerbesAleatoire());
         result = result.Replace("[verbeC]", dico.VerbesAvecComplementAleatoire());
         return result;
+    }
+
+    public Sprite GetSprite()
+    {
+        return Resources.Load<Sprite>("ImagesCartes/" + spriteName);
     }
 }

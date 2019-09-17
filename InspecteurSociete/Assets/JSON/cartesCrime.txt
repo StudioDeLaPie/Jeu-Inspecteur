@@ -1,22 +1,37 @@
 [
   {
-    "victime": "Richard",
-    "crimeCommis": "meurtre",
-    "lieu": "maison",
+    "victime": 
+"Richard",
+    "crimeCommis": 
+"meurtre",
+    "lieu": 
+"maison",
     "ListeSuspects": [
-      "mama",
-      "tata"
+      	"mama",
+      	"tata"
     ],
-    "descriptionCrime": "je suis une grosse conne"
+    "descriptionCrime": 
+"je suis une grosse conne [verbeC]",
+    "spriteName":
+ 		"Richard"
+
   },
-  {
-    "victime": "Richard",
-    "crimeCommis": "meurtre",
-    "lieu": "maison",
+   {
+    "victime": 
+"Richard",
+    "crimeCommis": 
+"meurtre",
+    "lieu": 
+"maison",
     "ListeSuspects": [
-      "mama",
-      "tata"
+      	"mama",
+      	"tata"
     ],
-    "descriptionCrime": "moi aussi"
-  }
+    "descriptionCrime": 
+"je suis une grosse conne",
+    "spriteName":
+ 		"Richard"
+
+  },
+
 ]
