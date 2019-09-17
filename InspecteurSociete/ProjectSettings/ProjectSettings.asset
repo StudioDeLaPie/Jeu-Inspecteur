@@ -257,7 +257,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 2
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: S:/Projects/user.keystore
+  AndroidKeystoreName: S:/Projets Unity/user.keystore
   AndroidKeyaliasName: key_inspectorgame
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0

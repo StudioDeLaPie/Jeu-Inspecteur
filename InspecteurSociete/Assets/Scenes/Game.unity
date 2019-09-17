@@ -1647,7 +1647,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 3.75
+  m_Spacing: 10
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
@@ -4483,12 +4483,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 10
-    m_Right: 10
-    m_Top: 10
-    m_Bottom: 10
+    m_Left: 7
+    m_Right: 7
+    m_Top: 7
+    m_Bottom: 7
   m_ChildAlignment: 0
-  m_Spacing: 1.8906248
+  m_Spacing: 6.666667
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
@@ -7917,7 +7917,7 @@ MonoBehaviour:
   sujets: []
   verbes: []
   verbesAvecComplement: []
-  JSONStringDico: 
+  dictionnaireFile: {fileID: 4900000, guid: 5480b33e0cb25214bb9494dd126d42f5, type: 3}
 --- !u!1 &1434924626
 GameObject:
   m_ObjectHideFlags: 0
@@ -8951,7 +8951,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 1.55
+  m_Spacing: 4.133333
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1

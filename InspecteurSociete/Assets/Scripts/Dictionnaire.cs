@@ -11,35 +11,12 @@ public class Dictionnaire : MonoBehaviour
     [SerializeField] private List<string> verbes = new List<string>();
     [SerializeField] private List<string> verbesAvecComplement = new List<string>();
 
-    public string JSONStringDico;
+    public TextAsset dictionnaireFile;
 
     private void Start()
     {
-        //Debug.Log("simple dataPath-> " + Application.dataPath); //Git_JeuxInspecteur/Jeu-Inspecteur/InspecteurSociete/Assets
-        //Debug.Log("persistentDataPath-> " + Application.persistentDataPath); //Studio/AppData/LocalLow/StudioDeLaPie/InspectorGame  (Utilise le ssd donc pour l'instant on utilise le simple data path)
-
-        JsonUtility.FromJsonOverwrite(lireUnFichier(Application.streamingAssetsPath + "/dictionnaire.pie"), this); // récupère les mots à partir du JSON
-    }
-
-    public string lireUnFichier(string pathFichier)
-    {
-        try
-        {
-            // Création d'une instance de StreamReader pour permettre la lecture de notre fichier
-            StreamReader monStreamReader = new StreamReader(pathFichier);
-            string ligne = monStreamReader.ReadToEnd();
-
-            // Fermeture du StreamReader, très important pour libérer la ressource
-            monStreamReader.Close();
-
-            return ligne;
-        }
-        catch (Exception ex)
-        {
-            // Code exécuté en cas d'exception
-            Debug.LogError("Erreur lecture JSON dictionnary");
-            return string.Empty;
-        }
+        
+        JsonUtility.FromJsonOverwrite(dictionnaireFile.text, this); // récupère les mots à partir du JSON
     }
 
     public string SujetsAleatoire()

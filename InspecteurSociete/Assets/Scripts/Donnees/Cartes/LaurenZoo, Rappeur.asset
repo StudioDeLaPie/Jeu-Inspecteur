@@ -19,7 +19,7 @@ MonoBehaviour:
   - Haters
   - 'Connaissances de la street '
   - Dealers
-  descriptionCrime: "Il est port\xE9 disparu depuis 3 jours. Son dernier single (\"[verbeC]\")
+  descriptionCrime: "Il est port\xE9 disparu depuis 3 jours. Son dernier single (\"[verbe]\")
     a pas mal fait parler de lui puisque les textes pr\xF4nent l\u2019interdiction
     de consommation du cannabis, contrairement \xE0 son habitude."
   sprite: {fileID: 21300000, guid: ca595e575194b5a4c9a0414d39b05a47, type: 3}
