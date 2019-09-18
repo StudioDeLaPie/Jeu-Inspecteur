@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum TypeMot
+public enum FormatMot
 {
-    Sujet,
-    Verbe,
-    VerbeAvecComplement
+    minuscule,
+    Majuscule,
+    MAJUSCULE
 }

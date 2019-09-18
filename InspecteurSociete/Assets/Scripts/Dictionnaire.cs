@@ -15,46 +15,63 @@ public class Dictionnaire : MonoBehaviour
 
     private void Start()
     {
-
         JsonUtility.FromJsonOverwrite(dictionnaireFile.text, this); // récupère les mots à partir du JSON
     }
 
 
-    public string SujetsAleatoire(TypeMot type)
+    private string SujetsAleatoire(FormatMot format)
     {
         int index = Aleatoire.AleatoireBetween(0, sujets.Count - 1);
-        return FormatCase(sujets[index], type);
+        return FormatCase(sujets[index], format);
     }
 
-    public string VerbesAleatoire(TypeMot type)
+    private string VerbesAleatoire(FormatMot format)
     {
         int index = Aleatoire.AleatoireBetween(0, verbes.Count - 1);
-        return FormatCase(verbes[index], type);
+        return FormatCase(verbes[index], format);
     }
 
-    public string VerbesAvecComplementAleatoire(TypeMot type)
+    private string VerbesAvecComplementAleatoire(FormatMot format)
     {
         int index = Aleatoire.AleatoireBetween(0, verbesAvecComplement.Count - 1);
-        return FormatCase(verbesAvecComplement[index], type);
+        return FormatCase(verbesAvecComplement[index], format);
+    }
+
+    public string MotAleatoire(TypeMot type, FormatMot format)
+    {
+        switch (type)
+        {
+            case TypeMot.Sujet:
+                return SujetsAleatoire(format);
+            case TypeMot.Verbe:
+                return VerbesAleatoire(format);
+            case TypeMot.VerbeAvecComplement:
+                return VerbesAvecComplementAleatoire(format);
+            default:
+                return string.Empty;
+        }
     }
 
     /// <summary>
     /// Formate le mot donné en paramètre pour le mettre en minuscule / majsucule sur la première lettre / Tout en majuscule
     /// </summary>
     /// <param name="mot">Mot à formatter</param>
-    /// <param name="type">méthode de formattage</param>
+    /// <param name="format">méthode de formattage</param>
     /// <returns></returns>
-    private string FormatCase(string mot, TypeMot type)
+    static public string FormatCase(string mot, FormatMot format)
     {
-        switch (type)
+        switch (format)
         {
-            case TypeMot.minuscule:
+            case FormatMot.minuscule:
                 mot = mot.ToLower();
                 break;
-            case TypeMot.Majuscule:
-                mot = mot[0].ToString().ToUpper() + mot.Substring(1).ToLower();
+            case FormatMot.Majuscule:
+                if (mot[0].ToString() == "[") //Si le mot est [sujet] le script doit mettre le S en majuscule est non le [
+                    mot = mot[0] + mot[1].ToString().ToUpper() + mot.Substring(2).ToLower();
+                else
+                    mot = mot[0].ToString().ToUpper() + mot.Substring(1).ToLower();
                 break;
-            case TypeMot.MAJUSCULE:
+            case FormatMot.MAJUSCULE:
                 mot = mot.ToUpper();
                 break;
             default:

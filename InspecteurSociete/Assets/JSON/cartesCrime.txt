@@ -12,9 +12,7 @@
 		"Personnel soignant"
     ],
     "descriptionCrime": 
-"[sujet][Sujet][SUJET]
-[verbe][Verbe] \n \n \n \n \n  [VERBE]
-[verbeC] [VerbeC] [VERBEC]",
+	"[sujet][sujet][sujet]",
     "spriteName":
  		"Yvonne"
 
