@@ -57,7 +57,7 @@ public class CarteCrime
                 motCle = "[verbe]";
                 break;
             case TypeMot.VerbeAvecComplement:
-                motCle = "[verbeC]";
+                motCle = "[verbe+c]";
                 break;
             default:
                 motCle = string.Empty;
