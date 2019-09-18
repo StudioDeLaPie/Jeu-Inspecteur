@@ -20,9 +20,11 @@ public class CarteCrime
     /// <returns></returns>
     public string GetDescriptionCrime(Dictionnaire dico)
     {
-        string result = descriptionCrime.Replace("[sujet]", dico.SujetsAleatoire());
-        result = result.Replace("[verbe]", dico.VerbesAleatoire());
-        result = result.Replace("[verbeC]", dico.VerbesAvecComplementAleatoire());
+        string result = descriptionCrime.Replace("[sujet]", dico.SujetsAleatoire(TypeMot.minuscule)).Replace("[Sujet]", dico.SujetsAleatoire(TypeMot.Majuscule)).Replace("[SUJET]", dico.SujetsAleatoire(TypeMot.MAJUSCULE));
+
+        result = result.Replace("[verbe]", dico.VerbesAleatoire(TypeMot.minuscule)).Replace("[Verbe]", dico.VerbesAleatoire(TypeMot.Majuscule)).Replace("[VERBE]", dico.VerbesAleatoire(TypeMot.MAJUSCULE));
+
+        result = result.Replace("[verbeC]", dico.VerbesAvecComplementAleatoire(TypeMot.minuscule)).Replace("[VerbeC]", dico.VerbesAvecComplementAleatoire(TypeMot.Majuscule)).Replace("[VERBEC]", dico.VerbesAvecComplementAleatoire(TypeMot.MAJUSCULE));
         return result;
     }
 

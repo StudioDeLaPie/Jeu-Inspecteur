@@ -1,37 +1,23 @@
 [
   {
     "victime": 
-"Richard",
+"Mamie Yvonne",
     "crimeCommis": 
-"meurtre",
+"Meurtre",
     "lieu": 
-"maison",
+"Maison de retraite",
     "ListeSuspects": [
-      	"mama",
-      	"tata"
+      	"Famille",
+      	"Résidents de la maison de retraite",
+		"Personnel soignant"
     ],
     "descriptionCrime": 
-"je suis une grosse conne [verbeC]",
+"[sujet][Sujet][SUJET]
+[verbe][Verbe] \n \n \n \n \n  [VERBE]
+[verbeC] [VerbeC] [VERBEC]",
     "spriteName":
- 		"Richard"
+ 		"Yvonne"
 
-  },
-   {
-    "victime": 
-"Richard",
-    "crimeCommis": 
-"meurtre",
-    "lieu": 
-"maison",
-    "ListeSuspects": [
-      	"mama",
-      	"tata"
-    ],
-    "descriptionCrime": 
-"je suis une grosse conne",
-    "spriteName":
- 		"Richard"
-
-  },
-
+  }
 ]
+
