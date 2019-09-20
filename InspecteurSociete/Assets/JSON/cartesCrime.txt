@@ -14,7 +14,7 @@
 		"Personnel soignant"
     ],
     "descriptionCrime": 
-"Retrouvée morte ce matin dans son lit, elle a été tuée d’un coup de couteau dans la poitrine. La seule chose qu’ont entendu les personnes présentes aux alentours à ce moment là est “PITIE NON ! PAS [SUJET] !” ",
+"Retrouvée morte ce matin dans son lit, elle a été tuée d’un coup de couteau dans la poitrine. La seule chose qu’ont entendue les personnes présentes aux alentours à ce moment là est “PITIE NON ! PAS [SUJET] !” ",
     "spriteName":
  		"Mamie"
 
@@ -32,7 +32,7 @@
 		"Employés"
     ],
     "descriptionCrime": 
-"Le salon de coiffure a été vandalisé la nuit dernière. Tous les pots de gels ont été vidés sur le sol et les sèches-cheveux laissés allumés. La facture d’électricité a creuvé le plafond. \nLes vandales sont entrés en forçant la serrure avec [sujet].",
+"Le salon de coiffure a été vandalisé la nuit dernière. Tous les pots de gels ont été vidés sur le sol et les sèches-cheveux laissés allumés. La facture d’électricité a crevé le plafond. \nLes vandales sont entrés en forçant la serrure avec [sujet].",
     "spriteName":
  		"Coiffeur"
 
@@ -50,7 +50,7 @@
 		"Mafia locale"
     ],
     "descriptionCrime": 
-"Gontran a disparu depuis trois jours. Les vidéos de surveillance de son manoir montre qu’il s’est fait kidnapper dans sa piscine alors qu’il était en train de [verbe]. Sa famille a reçu une demande de rançon ce matin par la poste. Le paquet contenait également [sujet].",
+"Gontran a disparu depuis trois jours. Les vidéos de surveillance de son manoir montrent qu’il s’est fait kidnapper dans sa piscine alors qu’il était en train de [verbe]. Sa famille a reçu une demande de rançon ce matin par la poste. Le paquet contenait également [sujet].",
     "spriteName":
  		"VIP"
 
@@ -88,7 +88,7 @@
 		"Famille"
     ],
     "descriptionCrime": 
-"La crêpe a été retrouvée dans un champ suite au saut organisé par sa famille pour son anniversaire. Son sac-harnais contenait [sujet] et [sujet]",
+"La crêpe a été retrouvée dans un champ suite au saut organisé par sa famille pour son anniversaire. Son sac-harnais contenait [sujet] et [sujet].",
     "spriteName":
  		"Parachutiste"
 
@@ -162,7 +162,7 @@
 		"Ouvriers qui refont la façade"
     ],
     "descriptionCrime": 
-"On a découvert le corps après que le facteur ait signalé une forte odeur de putréfaction, différente de celle de son ragout habituel. \n\nUn coup de couteau à beurre aura été le coup fatal mais le corps porte des marques de tabassage avec [sujet]. Au moment de l’agression, elle était en train de [verbe+c] [sujet].",
+"On a découvert le corps après que le facteur ait signalé une forte odeur de putréfaction, différente de celle de son ragoût habituel. \n\nUn coup de couteau à beurre aura été le coup fatal, mais le corps porte aussi des marques de tabassage avec [sujet]. Au moment de l’agression, elle était en train de [verbe+c] [sujet].",
     "spriteName":
  		"Concierge"
   },
@@ -198,7 +198,7 @@
 		"Agents d’assurance"
     ],
     "descriptionCrime": 
-"Retrouvé mort ce matin sur son lieu de travail, plus précisement sous 300kg de béton. Une lettre avec pour objet “[sujet]” a été retrouvée dans ses poches.",
+"Retrouvé mort ce matin sur son lieu de travail, plus précisement sous 300kg de béton. Une lettre avec pour objet “[sujet]” a été retrouvée dans une de ses poches.",
     "spriteName":
  		"Ouvrier"
   }

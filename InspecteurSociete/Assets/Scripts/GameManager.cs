@@ -58,6 +58,11 @@ public class GameManager : MonoBehaviour
         Show(menuPrincipal);
     }
 
+    public void OpenFacebook()
+    {
+        Application.OpenURL("https://www.facebook.com/StudioDeLaPie");
+    }
+
     private void Show(GameObject ecran)
     {
         displayedEcran?.SetActive(false);
