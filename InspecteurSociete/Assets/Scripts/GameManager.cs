@@ -9,17 +9,24 @@ public class GameManager : MonoBehaviour
     public GameObject saisieNomsJoueurs;
     public GameObject ecranJeu;
     public GameObject regles;
+    public GameObject popUpBackButton;
 
 
     [HideInInspector] public int nbJoueurs;
     [HideInInspector] public List<Joueur> joueurs;
-    private List<GameObject> ecrans;
     private GameObject displayedEcran;
 
     private void Start()
     {
-        ecrans = new List<GameObject>() { menuPrincipal, selectionNbJoueurs, saisieNomsJoueurs, ecranJeu };
         Show(menuPrincipal);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            popUpBackButton.SetActive(!popUpBackButton.activeInHierarchy);
+        }
     }
 
     public void ShowRegles()
@@ -45,10 +52,15 @@ public class GameManager : MonoBehaviour
         Show(ecranJeu);
     }
 
+    public void BackToMenu()
+    {
+        popUpBackButton.SetActive(false);
+        Show(menuPrincipal);
+    }
+
     private void Show(GameObject ecran)
     {
         displayedEcran?.SetActive(false);
-        //ecrans.ForEach(go => go.SetActive(false));
         displayedEcran = ecran;
         ecran.SetActive(true);
     }

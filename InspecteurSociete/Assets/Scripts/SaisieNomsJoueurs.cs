@@ -17,6 +17,8 @@ public class SaisieNomsJoueurs : MonoBehaviour
     private void OnEnable()
     {
         nbJoueurs = manager.nbJoueurs;
+        Utilities.Utilities.ClearTransformChildren(grid);
+        inputFields.Clear();
         for (int i = 0; i < nbJoueurs; i++)
         {
             inputFields.Add(Instantiate(prefabInputField, grid).GetComponent<InputField>());

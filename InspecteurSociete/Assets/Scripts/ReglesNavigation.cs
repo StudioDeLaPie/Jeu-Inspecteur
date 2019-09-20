@@ -17,6 +17,7 @@ public class ReglesNavigation : MonoBehaviour
         pages.ForEach(page => page.SetActive(false));
         pages[indexPage].SetActive(true);
         previousBtn.SetActive(false);
+        nextBtn.SetActive(true);
     }
 
     /// <summary>
