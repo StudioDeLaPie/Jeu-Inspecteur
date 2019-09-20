@@ -1,3 +1,5 @@
+
+
 [
   {
     "victime": 
@@ -12,10 +14,193 @@
 		"Personnel soignant"
     ],
     "descriptionCrime": 
-	"[sujet][sujet][sujet]",
+"Retrouvée morte ce matin dans son lit, elle a été tuée d’un coup de couteau dans la poitrine. La seule chose qu’ont entendu les personnes présentes aux alentours à ce moment là est “PITIE NON ! PAS [SUJET] !” ",
     "spriteName":
- 		"Yvonne"
+ 		"Mamie"
 
+  },
+   {
+    "victime": 
+"Marcus, coiffeur",
+    "crimeCommis": 
+"Vandalisme",
+    "lieu": 
+"Salon de coiffure “La coupe au padebol”",
+    "ListeSuspects": [
+      	"Clients",
+      	"Coiffeurs concurrents",
+		"Employés"
+    ],
+    "descriptionCrime": 
+"Le salon de coiffure a été vandalisé la nuit dernière. Tous les pots de gels ont été vidés sur le sol et les sèches-cheveux laissés allumés. La facture d’électricité a creuvé le plafond. \nLes vandales sont entrés en forçant la serrure avec [sujet].",
+    "spriteName":
+ 		"Coiffeur"
+
+  },
+   {
+    "victime": 
+"Gontran, VIP très riche",
+    "crimeCommis": 
+"Kidnapping avec demande de rançon",
+    "lieu": 
+"Manoir de Gontran",
+    "ListeSuspects": [
+      	"Famille",
+      	"Domestiques",
+		"Mafia locale"
+    ],
+    "descriptionCrime": 
+"Gontran a disparu depuis trois jours. Les vidéos de surveillance de son manoir montre qu’il s’est fait kidnapper dans sa piscine alors qu’il était en train de [verbe]. Sa famille a reçu une demande de rançon ce matin par la poste. Le paquet contenait également [sujet].",
+    "spriteName":
+ 		"VIP"
+
+  },
+   {
+    "victime": 
+"Isadora, artiste peintre",
+    "crimeCommis": 
+"Vol de tableau",
+    "lieu": 
+"Atelier de Isadora",
+    "ListeSuspects": [
+      	"Famille",
+      	"Gérants de la salle d’expo",
+		"Clients",
+		"Fournisseurs"
+    ],
+    "descriptionCrime": 
+"Isadora s’est fait voler sa dernière œuvre sur toile hier soir dans son atelier. En rentrant de soirée, la porte était fracturée et le tableau volé. Ça devait être la pièce maîtresse de son exposition prévue dans trois jours sur le thème : “[Sujet]”. \nOn a retrouvé [sujet] sur le sol de l’atelier et [sujet] au pied de la porte enfoncée.",
+    "spriteName":
+ 		"Artiste"
+
+  },
+   {
+    "victime": 
+"Mathilde, parachutiste",
+    "crimeCommis": 
+"Meurtre",
+    "lieu": 
+"Avion, champs",
+    "ListeSuspects": [
+      	"Pilote",
+      	"Autres parachutistes",
+		"Vendeur de matériel",
+		"Famille"
+    ],
+    "descriptionCrime": 
+"La crêpe a été retrouvée dans un champ suite au saut organisé par sa famille pour son anniversaire. Son sac-harnais contenait [sujet] et [sujet]",
+    "spriteName":
+ 		"Parachutiste"
+
+  },
+   {
+    "victime": 
+"Emilien, professeur de mathématiques",
+    "crimeCommis": 
+"Vol de voiture",
+    "lieu": 
+"Lycée de Beaubois",
+    "ListeSuspects": [
+      	"Elèves",
+      	"Parents d’élèves",
+		"Collègues",
+		"Administration"
+    ],
+    "descriptionCrime": 
+"Il s’est fait voler sa voiture hier dans l’après-midi. Un témoin affirme que quelqu’un était en train de [verbe] sur le parking cet après-midi. Tout ce que Emilien a retrouvé à l’emplacement de sa voiture c’est [sujet].",
+    "spriteName":
+ 		"Professeur"
+
+  },
+   {
+    "victime": 
+"Kenji Jicrac, chanteur",
+    "crimeCommis": 
+"Agression",
+    "lieu": 
+"Loge privée de Kenji",
+    "ListeSuspects": [
+      	"Groupies",
+      	"Maison de disque",
+		"Equipe technique"
+    ],
+    "descriptionCrime": 
+"Après son concert, Kenji est retourné dans sa loge pour se démaquiller et utiliser [sujet] pour se détendre. 2 heures plus tard, il est retrouvé nu et inconscient dans un coin de la pièce, [sujet] entre les dents.",
+    "spriteName":
+ 		"Chanteur"
+  },
+   {
+    "victime": 
+"Ambre, policière",
+    "crimeCommis": 
+"Tabassage",
+    "lieu": 
+"Ruelle",
+    "ListeSuspects": [
+      	"Indics",
+      	"Derniers criminels arrêtés",
+		"Collègues"
+    ],
+    "descriptionCrime": 
+"Policière modèle, mais parfois trop sévère, limite chiante. Elle a effectué plus de 150 arrestations le mois dernier. Sa dernière arrestation concernait un type qui ne pouvait pas s’empêcher de [verbe].",
+    "spriteName":
+ 		"Policiere"
+  },
+
+
+
+   {
+    "victime": 
+"Psarkoviya, concierge chiante",
+    "crimeCommis": 
+"Meurtre",
+    "lieu": 
+"Appartement de Praskoviya",
+    "ListeSuspects": [
+      	"Résidents",
+      	"Syndic",
+		"Ouvriers qui refont la façade"
+    ],
+    "descriptionCrime": 
+"On a découvert le corps après que le facteur ait signalé une forte odeur de putréfaction, différente de celle de son ragout habituel. \n\nUn coup de couteau à beurre aura été le coup fatal mais le corps porte des marques de tabassage avec [sujet]. Au moment de l’agression, elle était en train de [verbe+c] [sujet].",
+    "spriteName":
+ 		"Concierge"
+  },
+   {
+    "victime": 
+"Papi Richard",
+    "crimeCommis": 
+"Tentative de meurtre",
+    "lieu": 
+"Maison de retraite",
+    "ListeSuspects": [
+      	"Famille",
+      	"Résidents de la maison de retraite",
+		"Personnel soignant"
+    ],
+    "descriptionCrime": 
+"Papi s’est cassé le col du fémur après être tombé dans l’escalier. Il affirme qu’on l’a volontairement poussé. Il a aussi déclaré “chuis pt’être vieux, mais c’est pas parce qu’on glisse sur [sujet] qu’on est plus capable de [verbe]”. \n\n\n...\n\n\nOn n’est pas sûr de si ça a du sens ou pas.",
+    "spriteName":
+ 		"Papi"
+  },
+
+
+   {
+    "victime": 
+"Josef, ouvrier de chantier",
+    "crimeCommis": 
+"Meurtre",
+    "lieu": 
+"Chantier",
+    "ListeSuspects": [
+      	"Collègues ouvriers",
+      	"Responsables de projet",
+		"Agents d’assurance"
+    ],
+    "descriptionCrime": 
+"Retrouvé mort ce matin sur son lieu de travail, plus précisement sous 300kg de béton. Une lettre avec pour objet “[sujet]” a été retrouvée dans ses poches.",
+    "spriteName":
+ 		"Ouvrier"
   }
 ]
 

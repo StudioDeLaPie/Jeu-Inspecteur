@@ -12,8 +12,7 @@ public class BtnSelectionVainqueur : MonoBehaviour
 
     private void OnEnable()
     {
-       
-        //GetComponent<Button>().onClick.AddListener(GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManagerScript>().PlaySoundButton);
+        GetComponent<Button>().onClick.AddListener(GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManagerScript>().PlaySoundButton);
     }
 
     public void Init(SelectionVainqueurManche sV, Joueur j)
